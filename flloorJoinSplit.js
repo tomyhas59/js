@@ -23,7 +23,8 @@ console.log(numbers);
 const join = [1, 2, 3, 4];
 
 console.log(join.join("")); //"" 문자열로 바꿔줌 1234
-console.log(join.join("!")); //"" 문자열로 바꿔줌 1!2!3!4
+console.log(join.join("!")); //!가 문자 사이에 생김 1!2!3!4
+console.log(join.reverse()); //배열에서 리버스됨 [ 4, 3, 2, 1 ]
 
 const split = "1234";
 
