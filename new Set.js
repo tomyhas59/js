@@ -7,6 +7,7 @@ mySet.has(1); // true
 mySet.has(2); // false
 mySet.size; // 2 (2개의 값이 저장됨)
 //mySet.clear(); //빈 Set로 만듦
+
 mySet.forEach((value) => {
   console.log(value);
 });
