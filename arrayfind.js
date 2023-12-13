@@ -21,4 +21,4 @@ while (index > -1) {
   index = arr.indexOf("라");
 }
 
-console.log(arr);
+console.log(arr); //[ '가', '다', '마' ]
