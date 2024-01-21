@@ -20,7 +20,7 @@ console.log(chain.introduce()); //안녕하세요. 강남 4호점입니다
 console.log(Chicken.brand); //우자치킨
 
 class Employee {
-  #name = "";
+  #name = ""; //정보 은닉화
   #age = 0;
 
   constructor(name, age) {
