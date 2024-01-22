@@ -2,6 +2,7 @@ console.log(Math.floor(Math.random() * 9 + 1)); //0이상 10 이하
 //floor 내림
 //round 반올림
 //ceil  올림
+//trunc 정수만
 const arr = [30, 50, 100, 10];
 console.log(Math.min(...arr)); //전개연산자 써야함 최솟값 리턴 10
 console.log(Math.min.apply(null, arr)); //apply(null=객체, 배열) 리턴 10
