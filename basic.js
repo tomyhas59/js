@@ -11,3 +11,11 @@ user2.name = "Tom";
 
 console.log(user2);
 
+//호출 방법
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add.call(null, 3, 5));
+console.log(add.apply(null, [3, 5]));
+console.log(add.bind(null, 3, 5)());
