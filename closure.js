@@ -10,13 +10,23 @@ myFunction(); // 42
 function createCounter() {
   let count = 0;
 
-  function addCount() {
+  function increment() {
     count++;
     console.log(count);
   }
-  return addCount;
+
+  function reset() {
+    count = 0;
+    console.log("Counter reset");
+  }
+
+  return {
+    increment,
+    reset,
+  };
 }
 
 let counter = createCounter();
-counter(); //  1
-counter(); //  2
+counter.increment(); // Output: 1
+counter.increment(); // Output: 2
+counter.reset(); // Output: Counter reset
