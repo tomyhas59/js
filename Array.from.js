@@ -3,6 +3,9 @@
 const arrayLike = { 0: "a", 1: "b", 2: "c", length: 3 };
 const myArray2 = Array.from(arrayLike); // ['a', 'b', 'c']
 
+const lengthArr = Array.from({ length: 10 }, (_, index) => 1 + index);
+//[ 1, 2, 3, 4,  5, 6, 7, 8, 9, 10]
+
 const str = "Hello";
 const charArray = Array.from(str); // ["H", "e", "l", "l", "o"]
 console.log(charArray.at(1)); //e
