@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="operator.js"></script>
-    <link rel="stylesheet" href="_css.css" />
+    <title>갤러그 게임</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000;
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+        background: #222;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <details>
-        <summary>클릭하세요</summary>
-        <p>안녕하세요</p>
-      </details>
-    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="galaga.js"></script>
   </body>
 </html>
